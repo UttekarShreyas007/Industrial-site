@@ -1,0 +1,94 @@
+/* navbar */
+
+.logo {
+    border: 0px solid #fff;
+    border-radius: 0px 0px 90px 90px;
+    box-shadow: -2px 5px 10px -8px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    width: 220px;
+}
+
+.nav2-1 {
+    background-color: #F2F2F2;
+    padding-left: 1rem;
+}
+
+.nav2-3 {
+    background-color: #A1181B;
+    padding-left: 1rem;
+}
+
+.nav2-3 a,
+.nav2-1 button {
+    color: white;
+}
+
+.subs {
+    font-weight: bold;
+    border-radius: 0px 0px 0px 30px;
+    padding-bottom: 2rem;
+}
+
+.nav2-4 {
+    margin-left: -11rem;
+}
+
+.nav2-4 li {
+    padding-top: 0.5rem;
+}
+
+.nav2-4 a {
+    color: white !important
+}
+
+.li-1 {
+    background-color: #C5C5C5;
+}
+
+.li-2 {
+    background-color: #A1A1A1;
+}
+
+.li-3 {
+    background-color: #7E7E7E;
+}
+
+.li-4 {
+    background-color: #636363;
+}
+
+.li-5 {
+    background-color: #424242;
+}
+
+/* trending */
+
+.image0-trend {
+    width: 975px;
+    height: 455px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: contrast(55%);
+}
+
+.image-trend {
+    width: 150px;
+    height: 120px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* feature */
+
+.image-feature {
+    width: 210px;
+    height: 200px;
+    -o-object-fit: cover;
+}
+
+/* ARTICLES */
+
+.img-art {
+    max-width: none;
+    width: 25vw;
+}

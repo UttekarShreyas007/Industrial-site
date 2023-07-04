@@ -1,0 +1,43 @@
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px 80px 10px 80px;
+  }
+  
+  .carousel-container {
+    overflow-x: hidden;
+    display: flex;
+    margin: inherit;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    justify-content: center;
+    margin-right: 0;
+    display: grid;
+  }
+  
+  .carousel-button-left,
+  .carousel-button-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 20px;
+    border: solid 2px red;
+    border-radius: 10px;
+    background: red;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .carousel-button-left {
+    left: 10px;
+  }
+  
+  .carousel-button-right {
+    right: 10px;
+  }
+  
