@@ -6,7 +6,7 @@ import img3 from "../../../public/assests/Rectangle 19_1.png";
 import img4 from "../../../public/assests/Rectangle 19_2.png";
 import img5 from "../../../public/assests/Rectangle 19_0.png";
 import "./index.css";
-import {useState,  useEffect }  from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 const Trending = () => {
@@ -49,7 +49,7 @@ const Trending = () => {
   }
 
   return (
-    <main className="my-10">
+    <main className="my-10">  
       <div>
         <Image src={img1} alt="hero" className="w-full" />
       </div>
@@ -58,7 +58,12 @@ const Trending = () => {
         <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
           <div className="left relative">
             <div className="image-container">
-              <img src={trendingPosts[0].media[0].filUrl} alt="vid" className="image0-trend w-full" />
+              <video
+                src={trendingPosts[2].media[0].fileUrl}
+                alt="vid"
+                className="image0-trend w-full"
+                controls
+              />
             </div>
             <div className="text absolute bottom-4 left-0 right-0 bg-gray-300 w-1/2 md:w-44 pl-4">
               <h1>{trendingPosts[0].title}</h1>
